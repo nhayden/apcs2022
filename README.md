@@ -2,13 +2,13 @@
 
 [![Build Status](https://travis-ci.org/lorepirri/cayman-blog.svg?branch=master)](https://travis-ci.org/lorepirri/cayman-blog) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-cayman-blog.svg)](https://badge.fury.io/rb/jekyll-theme-cayman-blog)
 
-*Cayman Blog is a Jekyll theme for GitHub Pages. It is based on the nice [Cayman theme](https://pages-themes.github.io/cayman/), with blogging features added. You can [preview the theme to see what it looks like](http://lorepirri.github.io/cayman-blog), or even [use it today](#usage).*
+_Cayman Blog is a Jekyll theme for GitHub Pages. It is based on the nice [Cayman theme](https://pages-themes.github.io/cayman/), with blogging features added. You can [preview the theme to see what it looks like](http://lorepirri.github.io/cayman-blog), or even [use it today](#usage)._
 
 <img src="https://raw.githubusercontent.com/lorepirri/cayman-blog/master/thumbnail.png" alt="Thumbnail of cayman-blog" style="max-width:30%; border: 1px solid grey;"/> <img src="https://raw.githubusercontent.com/lorepirri/cayman-blog/master/thumbnail-mobile.png" alt="Thumbnail of cayman-blog for mobile" style="width: 239px; height: 424px;"/>
 
 ## Install
 
-Cayman Blog Theme has been developed as a Jekyll theme gem for easier use. It is also 100% compatible with GitHub Pages — just with a more involved installation process according to whether you’re _running Jekyll v3.3+ and self-hosting_, or if you’re *hosting with GitHub Pages*.
+Cayman Blog Theme has been developed as a Jekyll theme gem for easier use. It is also 100% compatible with GitHub Pages — just with a more involved installation process according to whether you’re _running Jekyll v3.3+ and self-hosting_, or if you’re _hosting with GitHub Pages_.
 
 ## Self hosting
 
@@ -16,25 +16,25 @@ If you’re running Jekyll v3.3+ and **self-hosting** you can quickly install th
 
 1. Add this line to your Jekyll site’s Gemfile:
 
-    ```
-    gem "jekyll-theme-cayman-blog"
-    ```
+   ```
+   gem "jekyll-theme-cayman-blog"
+   ```
 
-2. Add this line to your Jekyll site’s _config.yml file:
+2. Add this line to your Jekyll site’s \_config.yml file:
 
-    ```
-    theme: jekyll-theme-cayman-blog
-    ```
+   ```
+   theme: jekyll-theme-cayman-blog
+   ```
 
 3. Then run Bundler to install the theme gem and dependencies:
 
-    ```
-    script/bootstrap
-    ```
+   ```
+   script/bootstrap
+   ```
 
 ## Hosting with GitHub Pages
 
-If you’re *hosting your blog with GitHub Pages* you’ll have to consider this:
+If you’re _hosting your blog with GitHub Pages_ you’ll have to consider this:
 
 :warning: As stated in the official [Jekyll documentation](https://jekyllrb.com/docs/themes/#installing-a-theme):
 
@@ -46,35 +46,35 @@ The easiest way I found to install _Cayman Blog Theme_, is [installing the theme
 
 Alternatively, for new projects, one could fork the whole theme, and keep only the interesting files.
 
-
 ### Gem Install
 
 This method is preferred for existing _Jekyll blogs_, as well as newly created ones. Notice that the files `index.md`, `about.md`, `contact.md` will be overwritten (only `index.md` is really needed, the other two are just placeholders).
 
 1. Install the theme gem: ` $ gem install jekyll-theme-cayman-blog`
-3. Run `$ gem env gemdir` to know where the gem was installed
-4. Open the folder shown in the output
-5. Open the folder `gems`
+2. Run `$ gem env gemdir` to know where the gem was installed
+3. Open the folder shown in the output
+4. Open the folder `gems`
 5. Open the theme folder (e.g. `jekyll-theme-cayman-blog-0.0.5`)
-6. Copy all the files into your newly created or existing blog folder    
+6. Copy all the files into your newly created or existing blog folder
 7. Leave empty `theme` your site's `_config.yml`:
 
-    ```yml
-    theme:
-    ```
-6. Modify `_config.yml`, `about.md`, `contact.md` for your project
-7. [Customize the theme](customizing)
+   ```yml
+   theme:
+   ```
+
+8. Modify `_config.yml`, `about.md`, `contact.md` for your project
+9. [Customize the theme](customizing)
 
 ### Install as a Fork
 
 1. [Fork the repo](https://github.com/lorepirri/cayman-blog)
 2. Clone down the repo with `$ git clone git@github.com:username/reponame.git`
 3. Delete the `screenshot.png` and `screenshot-mobile.png` files
-3. Empty the `_posts` folder
-4. Install bundler and gems with `$ script/bootstrap`
-5. Run Jekyll with `$ script/server`
-6. Modify `_config.yml`, `about.md`, `contact.md` for your project
-7. [Customize the theme](customizing)
+4. Empty the `_posts` folder
+5. Install bundler and gems with `$ script/bootstrap`
+6. Run Jekyll with `$ script/server`
+7. Modify `_config.yml`, `about.md`, `contact.md` for your project
+8. [Customize the theme](customizing)
 
 ## Customizing
 
@@ -123,25 +123,24 @@ To switch to a better SEO tags however, one should install [Jekyll Feed plugin](
 
 1. Add this line to your site's Gemfile:
 
-    ```ruby
-    gem 'jekyll-seo-tag'
-    ```
+   ```ruby
+   gem 'jekyll-seo-tag'
+   ```
 
 2. And then add this line to your site's `_config.yml`:
 
-    ```yml
-    gems:
-      - jekyll-seo-tag
-    ```
+   ```yml
+   gems:
+     - jekyll-seo-tag
+   ```
 
 3. Replace with the following, the `<!-- jekyll-seo-tag -->` comment in your site's `default.html`:
 
-      ```liquid
-      {% seo %}
-      ```
+   ```liquid
+   {% seo %}
+   ```
 
 For more information about configuring this plugin, see the official [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag) page.
-
 
 ### Stylesheet
 
@@ -149,21 +148,23 @@ If you'd like to add your own custom styles:
 
 1. Create a file called `/assets/css/style.scss` in your site
 2. Add the following content to the top of the file, exactly as shown:
-    ```scss
-    ---
-    ---
 
-    @import "{{ site.theme }}";
-    ```
+   ```scss
+   ---
+   ---
+
+   @import "{{ site.theme }}";
+   ```
+
 3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
 
-*Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet.*
+_Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet._
 
 ### Layouts
 
 If you'd like to change the theme's HTML layout:
 
-1. [Copy the original template](https://github.com/lorepirri/cayman-blog/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
+1. [Copy the original template](https://github.com/lorepirri/cayman-blog/blob/master/_layouts/default.html) from the theme's repository<br />(_Pro-tip: click "raw" to make copying easier_)
 2. Create a file called `/_layouts/default.html` in your site
 3. Paste the default layout content copied in the first step
 4. Customize the layout as you'd like
@@ -184,14 +185,14 @@ Templates often rely on URLs supplied by GitHub such as links to your repository
 
 1. Look at [the template source](https://github.com/lorepirri/cayman-blog/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.github.zip_url }}`.
 2. Specify the URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.github.url`, you'd add the following:
-    ```yml
-    github:
-      zip_url: http://example.com/download.zip
-      another_url: another value
-    ```
+   ```yml
+   github:
+     zip_url: http://example.com/download.zip
+     another_url: another value
+   ```
 3. When your site is built, Jekyll will use the URL you specified, rather than the default one provided by GitHub.
 
-*Note: You must remove the `site.` prefix, and each variable name (after the `github.`) should be indent with two space below `github:`.*
+_Note: You must remove the `site.` prefix, and each variable name (after the `github.`) should be indent with two space below `github:`._
 
 For more information, see [the Jekyll variables documentation](https://jekyllrb.com/docs/variables/).
 
