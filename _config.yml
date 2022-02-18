@@ -57,4 +57,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-header_page_refs: ["now", "about", "contact"]
+# header_page_refs: ["now", "about", "contact", "shiboopi"]

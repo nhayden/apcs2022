@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About
+title: shiboopi
 # tagline: A few more words about this theme
-permalink: /about.html
-ref: about
-order: 7
+permalink: /shiboopi.html
+ref: shiboopi
+order: 1
 ---
 
 TBD
