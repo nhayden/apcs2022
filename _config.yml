@@ -20,15 +20,19 @@
 
 title: AP CS A Period 5, 2022
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Class website for AP CS A Period 5, 2022
+# baseurl: "" # the subpath of your site, e.g. /blog
 baseurl: "/apcs2022" # the subpath of your site, e.g. /blog
 url: "https://nhayden.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-# github_username:  jekyll
-show_excerpts: true
+github_username: nhayden
+# show_excerpts: true
 permalink: pretty
+
+# cayman-blog date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+cayman-blog:
+  date_format: "%b %-d, %Y"
 
 # Build settings
 theme:
@@ -53,3 +57,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+header_page_refs: ["now", "about", "contact"]
