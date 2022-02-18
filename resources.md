@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About
+title: Resources
 # tagline: A few more words about this theme
-permalink: /about.html
-ref: about
+permalink: /resources.html
+ref: resources
 order: 7
 ---
 
