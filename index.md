@@ -8,10 +8,10 @@
 layout: home
 ---
 
-Welcome
-
 Be sure to check out:
 
-- Alice
-- Bob
-- Charlie
+[Vocabulary]({{ '/vocab.html' | absolute_url }})
+
+[Announcements]({{ '/announcements.html' | absolute_url }})
+
+[Videos]({{ '/videos.html' | absolute_url }})
