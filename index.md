@@ -8,10 +8,6 @@
 layout: home
 ---
 
-Be sure to check out:
+Check out the nav bar at the top of the page to get around.
 
-[Vocabulary]({{ '/vocab.html' | absolute_url }})
-
-[Announcements]({{ '/announcements.html' | absolute_url }})
-
-[Videos]({{ '/videos.html' | absolute_url }})
+Below is just a running list of _all_ types of posts.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Announcement Before Mid Winter Break"
+title: "Some other announcement before mid winter break to test formatting"
 tags: assignment announcement
 author: "Nate"
 ---
