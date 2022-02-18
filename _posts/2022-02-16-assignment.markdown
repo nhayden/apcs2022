@@ -3,6 +3,7 @@ layout: post
 title: "Announcement Before Mid Winter Break"
 tags: assignment announcement
 author: "Nate"
+date: 2020-02-16 20:44:00 -0800
 ---
 
 ### Important Class Update
