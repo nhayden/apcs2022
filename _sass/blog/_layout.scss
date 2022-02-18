@@ -31,7 +31,7 @@
   line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
-      display: none;
+    display: none;
   }
 
   .menu-icon {
@@ -44,7 +44,7 @@
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
-      margin-right: 20px;
+      margin-right: 10px;
     }
   }
 
@@ -105,7 +105,6 @@
       margin-right: 10px;
       margin-left: 10px;
     }
-
   }
 }
 
@@ -127,7 +126,7 @@
 
   > li > p {
     margin-top: 0rem;
-  }  
+  }
 }
 
 @include media-query($on-palm) {
