@@ -11,6 +11,8 @@ ref: announcements
 permalink: /announcements.html
 ---
 
+Posts tagged with `announcement`
+
 <div>
 <ul class="post-list">
     {% for post in site.posts %}

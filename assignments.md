@@ -11,6 +11,8 @@ ref: assignments
 permalink: /assignments.html
 ---
 
+Posts tagged with `assignment`
+
 <div>
 <ul class="post-list">
     {% for post in site.posts %}

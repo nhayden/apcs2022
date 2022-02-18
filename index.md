@@ -10,4 +10,6 @@ layout: home
 
 Check out the nav bar at the top of the page to get around.
 
-Below is just a running list of _all_ types of posts.
+Below is a running list of all types of posts (time-based info), e.g., announcements, assignments.
+
+The rest of the pages (e.g., vocabulary, resources) will be added to incrementally.
